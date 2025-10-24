@@ -56,7 +56,7 @@
 
         <div in:fly={{ x: -8, delay: 220, duration: 350 }}>
           <label for="telefono" class="block text-sm font-semibold text-white mb-2">Número telefónico</label>
-          <input id="telefono" type="tel" bind:value={telefono} placeholder="Ej. +52 600 000 000" required class="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-white text-white/4 border border-white/10 text-black placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-400 text-sm sm:text-base" />
+          <input id="telefono" type="tel" bind:value={telefono} placeholder="Ej. +52 600 000 000" required class="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-white/4 border border-white/10 text-black placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-amber-400 text-sm sm:text-base text-white" />
         </div>
 
         <div in:fly={{ x: -8, delay: 260, duration: 350 }}>
