@@ -40,7 +40,7 @@
 
 <!-- Using Tailwind for styling; ensure your Tailwind build is configured (app.css includes directives) -->
 
-<main class="min-h-screen flex items-center justify-center text-white p-4 sm:p-6" style="background-image: linear-gradient(rgba(15,23,42,0.72), rgba(255,140,0,0.12)), url('/LOGO%20FINAL%20BN.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+<main class="min-h-screen flex items-center justify-center text-white p-4 sm:p-6" style="background-image: linear-gradient(rgba(15,23,42,0.72), rgba(255,140,0,0.12)), url('/camiseta%201.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
   <div class="w-full max-w-lg sm:max-w-xl bg-black/40 backdrop-blur-sm border border-white/8 p-6 sm:p-8 rounded-2xl shadow-lg mx-4" role="region" aria-labelledby="title">
     {#if !submitted}
   <div class="flex items-center justify-center mb-3" in:fly={{ y: -12, duration: 400 }}>
