@@ -46,7 +46,7 @@
   <div class="flex items-center justify-center mb-3" in:fly={{ y: -12, duration: 400 }}>
     <img src="/LOGO%202%20B.png" alt="Estudio a la Fuga - Logo" class="h-10 sm:h-14 object-contain" />
   </div>
-  <p class="text-xs sm:text-sm text-white/90 mb-4 sm:mb-6 justify-center" in:fly={{ y: -6, delay: 80, duration: 350 }}>Reserva tu camiseta oficial. Completa el formulario y te contactaremos.</p>
+  <p class="text-xs sm:text-sm text-white/90 mb-4 sm:mb-6 justify-center" in:fly={{ y: -6, delay: 80, duration: 350 }}>Reserva tu camiseta oficial por $250. Completa el formulario y te contactaremos para más detalles.</p>
 
   <form on:submit|preventDefault={enviar} class="space-y-4" in:fly={{ y: 6, delay: 140, duration: 400 }}>
         <div in:fly={{ x: -8, delay: 180, duration: 350 }}>
