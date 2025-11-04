@@ -25,6 +25,10 @@
         console.error('Preorder error', json);
       } else {
         submitted = true;
+        // Construir el mensaje para WhatsApp
+        const mensaje = `Hola! Soy ${nombre}. Me interesa reservar una camiseta talla ${talla}.`;
+        const whatsappUrl = `https://wa.me/5216443666912?text=${encodeURIComponent(mensaje)}`;
+        window.open(whatsappUrl, '_blank');
       }
     } catch (err) {
       serverError = String(err);
